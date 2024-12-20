@@ -6,13 +6,13 @@
 /*   By: mairivie <mairivie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/11 14:36:01 by mairive           #+#    #+#             */
-/*   Updated: 2024/12/20 01:32:07 by mairivie         ###   ########.fr       */
+/*   Updated: 2024/12/20 16:38:17 by mairivie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
-//C'EST SARA
+
 # include <stdarg.h>
 # include <stddef.h>
 # include <stdio.h>
