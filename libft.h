@@ -12,7 +12,7 @@
 
 #ifndef LIBFT_H
 # define LIBFT_H
-//CEST SARA
+//C'EST SARA
 # include <stdarg.h>
 # include <stddef.h>
 # include <stdio.h>
