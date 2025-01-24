@@ -6,7 +6,7 @@
 #    By: mairivie <mairivie@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/11/14 13:02:42 by mairive           #+#    #+#              #
-#    Updated: 2024/12/20 01:47:15 by mairivie         ###   ########.fr        #
+#    Updated: 2025/01/24 15:57:30 by mairivie         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -51,7 +51,7 @@ $(NAME): $(OBJ_LIST)
 # 	ar rc $(NAME) $^
 
 $(OBJ_DIR)%.o: $(SRC_DIR)%.c
-	mkdir -p $(OBJ_DIR)
+	@mkdir -p $(OBJ_DIR)
 	$(COMPIL) $(CFLAGS) -c $< -o $@
 
 clean:
