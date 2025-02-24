@@ -6,7 +6,7 @@
 /*   By: mairivie <mairivie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/11 14:36:01 by mairive           #+#    #+#             */
-/*   Updated: 2024/12/20 16:38:17 by mairivie         ###   ########.fr       */
+/*   Updated: 2025/02/05 10:54:55 by mairivie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -274,7 +274,7 @@ char				*ft_strjoin(char const *s1, char const *s2);
  *
  * RETURN VALUES ft_strtrim() returns a trimmed copy of s1; NULL if the
  * memory allocation failed.*/
-char				*ft_strtrim(char const *s1, char const *s2);
+char				*ft_strtrim(char const *s1, char const *set);
 
 /* DESC: Allocate (with malloc(3)) and returns an array of strings obtained by
  * 	splitting s with the character c, used as delimiter.
